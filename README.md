@@ -1,5 +1,5 @@
 # 🌍 Global Weather Analysis & Forecasting
-### PMA-AI Bootcamp Cohort 9 Technical Assessment — (Data Science Track)
+### PMA-AI Bootcamp Cohort 9 Technical Assessment: (Data Science Track)
 **Built by:** Zona Zubair
 
 ---
