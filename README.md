@@ -6,7 +6,7 @@
 
 ## 📌 About PM Accelerator
 
-> PM Accelerator's mission is to empower aspiring and experienced product managers through immersive, real-world training programs. We bridge the gap between theory and practice by providing mentorship, hands-on projects, and community-driven learning — helping members land top product roles and grow as leaders in tech.
+> PM Accelerator's mission is to empower aspiring and experienced product managers through immersive, real-world training programs. We bridge the gap between theory and practice by providing mentorship, hands-on projects, and community-driven learning, helping members land top product roles and grow as leaders in tech.
 
 ---
 
@@ -14,7 +14,7 @@
 
 This project is a complete end-to-end data science pipeline built on the **Global Weather Repository** dataset from Kaggle. The dataset contains daily weather observations for cities worldwide, with 40+ features including temperature, humidity, precipitation, air quality, wind speed, and more.
 
-The notebook covers the full data science workflow — from raw data cleaning to advanced forecasting — with every decision explained in plain language.
+The notebook covers the full data science workflow, from raw data cleaning to advanced forecasting, with every decision explained in plain language.
 
 ---
 
@@ -102,9 +102,9 @@ weather-analysis-ds/
 
 ## 🧠 Why These Modeling Choices?
 
-**Isolation Forest** — handles multi-dimensional weather data without assuming a distribution. Better than simple z-score thresholds.
+**Isolation Forest:** handles multi-dimensional weather data without assuming a distribution. Better than simple z-score thresholds.
 
-**ARIMA(2,1,2)** — p=2, q=2 selected from ACF/PACF plots; d=1 confirmed by ADF stationarity test. Serves as a strong interpretable baseline.
+**ARIMA(2,1,2):** p=2, q=2 selected from ACF/PACF plots; d=1 confirmed by ADF stationarity test. Serves as a strong interpretable baseline.
 
 **Prophet** — automatically detects yearly/weekly seasonality without manual tuning. Robust to missing values and outliers.
 
