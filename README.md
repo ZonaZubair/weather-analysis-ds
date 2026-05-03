@@ -106,8 +106,6 @@ weather-analysis-ds/
 
 **ARIMA(2,1,2):** p=2, q=2 selected from ACF/PACF plots; d=1 confirmed by ADF stationarity test. Serves as a strong interpretable baseline.
 
-**Prophet** — automatically detects yearly/weekly seasonality without manual tuning. Robust to missing values and outliers.
+**Prophet:** automatically detects yearly/weekly seasonality without manual tuning. Robust to missing values and outliers.
 
-**Weighted Ensemble** — weights each model by inverse MAE. Lower error = higher trust. Simple, transparent, and outperforms both models alone.
-
----
+**Weighted Ensemble:** weights each model by inverse MAE. Lower error = higher trust. Simple, transparent, and outperforms both models alone.
